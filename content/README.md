@@ -1,2 +1,2 @@
 # Introduction
-本日记从2017年8月10日开始记录，主要记录学习心得。
+Starting from Aug. 10th 2017, i am starting to write technical notes.
