@@ -14,7 +14,7 @@ mkdir contents
 mv README.md SUMMARY.md content/
 ```
 
-Creat a empty repository on Github and connect it with a local git repositoty 
+Creat a empty repository "XPnotes" on Github and connect it with a local git repository 
 ```bash
 git init
 git add -A
@@ -41,7 +41,7 @@ Add the following codes into package.json
 
 Add "gh-pages" into "./gitignore" 
 ```bash
-echo "gh-pages" >./gitignore
+echo "gh-pages" > ./gitignore
 ```
 
 Install a "gh-pages" package
