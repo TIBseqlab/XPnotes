@@ -1,3 +1,5 @@
+The following turtorial shows a simple example of how to make a gitbook and hold it on Github. Please check https://tibseqlab.github.io/XPnotes/
+
 Install node and npm:
 ```bash
 wget http://nodejs.org/dist/v5.1.0/node-v5.1.0-linux-x64.tar.gz
