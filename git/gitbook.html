@@ -173,7 +173,34 @@
     
                                 <section class="normal markdown-section">
                                 
-                                
+                                <p>Install node and npm:</p>
+<pre><code class="lang-bash">wget http://nodejs.org/dist/v5.1.0/node-v5.1.0-linux-x64.tar.gz
+tar -xf node-v5.1.0-linux-x64.tar.gz
+sudo npm install -g gitbook-cli@2.3.0
+</code></pre>
+<p>Creat a gitbook folder:</p>
+<pre><code class="lang-bash">mkdir XPnotes
+<span class="hljs-built_in">cd</span> XPnotes
+gitbook init
+mkdir contents
+mv README.md SUMMARY.md content/
+</code></pre>
+<p>Creat a empty repository on Github and connect it with a local git repositoty 
+<code>bash
+git init
+git add -A
+git commit -m &quot;first&quot;
+git remote add origin https://github.com/TIBseqlab/XPnotes.git
+git push -u origin master</code>bash</p>
+<p>Initial a gitbook:
+npm init
+vi package.json
+vi .gitignore</p>
+<p>npm install --save gh-pages
+mkdir scripts</p>
+<p>vi scripts/deploy-gh-pages.js </p>
+<p>npm run publish</p>
+
                                 
                                 </section>
                             
@@ -216,7 +243,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Gitbook and github","level":"1.2","depth":1,"next":{"title":"Github","level":"1.3","depth":1,"path":"git/github.md","ref":"git/github.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"neutral"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"git/gitbook.md","mtime":"2017-08-10T05:18:55.426Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-10T06:27:03.322Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Gitbook and github","level":"1.2","depth":1,"next":{"title":"Github","level":"1.3","depth":1,"path":"git/github.md","ref":"git/github.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"git/gitbook.md","mtime":"2017-08-16T02:55:06.586Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-16T02:56:14.660Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
