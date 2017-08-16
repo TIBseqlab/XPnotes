@@ -21,18 +21,51 @@ git add -A
 git commit -m "first"
 git remote add origin https://github.com/TIBseqlab/XPnotes.git
 git push -u origin master
-```bash
+```
 
 Initial a gitbook:
+```bash
 npm init
-vi package.json
-vi .gitignore
+```
 
+Add the following codes into package.json
+```bash
+"scripts": {
+ "start": "gitbook serve ./content ./gh-pages",
+ "build": "gitbook build ./content ./gh-pages",
+ "deploy": "node ./scripts/deploy-gh-pages.js",
+ "publish": "npm run build && npm run deploy",
+ "port": "lsof -i :35729"
+},
+```
+
+Add "gh-pages" into "./gitignore" 
+```bash
+echo "gh-pages" >./gitignore
+```
+
+Install a "gh-pages" package
+```bash
 npm install --save gh-pages
 mkdir scripts
-
 vi scripts/deploy-gh-pages.js 
+```
 
+Add the following code:
+```bash
+'use strict';
+
+var ghpages = require('gh-pages');
+
+main();
+
+function main() {
+    ghpages.publish('./gh-pages', console.error.bind(console));
+}
+```
+
+Publish the gitbook after update
+```bash
 npm run publish
-
+```
 
