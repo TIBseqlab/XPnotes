@@ -1,0 +1,416 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Trick and Tips · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="Markdown-Cheatsheet.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="gitbook.html">
+            
+                <a href="gitbook.html">
+            
+                    
+                    Gitbook and github
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="github.html">
+            
+                <a href="github.html">
+            
+                    
+                    Github
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Markdown-Cheatsheet.html">
+            
+                <a href="Markdown-Cheatsheet.html">
+            
+                    
+                    Markdown cheatsheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="Tips-and-Tricks.html">
+            
+                <a href="Tips-and-Tricks.html">
+            
+                    
+                    Trick and Tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Trick and Tips</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>Please add any tips and tricks that you come up with. For now it&apos;ll be a flat list and we&apos;ll add structure as needed.</p>
+<h5 id="table-of-contents">Table of Contents</h5>
+<p><a href="#pasting">Pasting from Clipboard (without tears)</a><br><a href="#sigs">Using an email signature</a><br><a href="#footnotes">Footnotes</a><br><a href="#tex">Using other TeX math formulae renderers</a><br><a href="#mainfont">Changing the Main Font (and other overall styles)</a><br><a href="#inlinehtml">Getting fancy with inline HTML</a><br><a href="#css">Cool CSS stuff</a><br><a href="#tables">Creating more complex tables</a><br><a href="#post-send-md">Getting original Markdown from sent email</a><br><a href="#header-anchors">Using Header Anchor Links</a></p>
+<p><a name="pasting" href="#"></a></p>
+<h1 id="pasting-from-clipboard-without-tears">Pasting from Clipboard (without tears)</h1>
+<p>If text is pasted from the clipboard with formatting intact, it can negatively impact the rendering of Markdown (i.e., it can make it super messed up). When pasting into an email that you plan on rendering with Markdown Here, you should try to paste as plain text.</p>
+<h3 id="windows-and-linux">Windows and Linux</h3>
+<ul>
+<li><strong>Chrome</strong>: Context menu: &quot;Paste as plain text&quot;. Hotkey: <code>Ctrl+Shift+V</code>.</li>
+<li><strong>Firefox</strong>: There doesn&apos;t seem to be a menu item. Hotkey: <code>Ctrl+Shift+V</code>.</li>
+<li><strong>Thunderbird, Postbox</strong>: <em>Edit</em> menu and context menu: &quot;Paste Without Formatting&quot;. Hotkey: <code>Ctrl+Shift+V</code>.</li>
+</ul>
+<p>(Linux: Tested on Xubuntu.)</p>
+<h3 id="mac-os-x">Mac OS X</h3>
+<ul>
+<li><strong>Chrome</strong>: <em>Edit</em> menu and context menu: &quot;Paste and Match Style&quot;. Hotkey: &#x21E7;&#x2318;V (<code>Shift+Command+V</code>).</li>
+<li><strong>Firefox</strong>: There doesn&apos;t seem to be a menu item. Hotkey: &#x21E7;&#x2318;V (<code>Shift+Command+V</code>).</li>
+<li><strong>Thunderbird, Postbox</strong>: <em>Edit</em> menu and context menu: &quot;Paste Without Formatting&quot;. Hotkey: &#x21E7;&#x2318;V (<code>Shift+Command+V</code>).</li>
+</ul>
+<p><a name="sigs" href="#"></a></p>
+<h1 id="using-email-signatures">Using email signatures</h1>
+<p>Email signatures are automatically excluded from conversion. Specifically, anything after the semi-standard <code>&apos;-- &apos;</code> (note the trailing space) is left alone.</p>
+<p>Note that Hotmail and Yahoo do not automatically add the <code>&apos;-- &apos;</code> to signatures, so you have to add it yourself.</p>
+<p><a name="footnotes" href="#"></a></p>
+<h1 id="footnotes">Footnotes</h1>
+<p>Below is a copy-paste of a workaround described in the <a href="https://github.com/adam-p/markdown-here/issues/94" target="_blank">feature request/issue</a> for adding footnotes:</p>
+<p>I thought of a bit of a hack you can use to emulate your footnotes: put inline HTML <code>&lt;sup&gt;</code> tags<sup>1</sup>. What I just did there looks like this: <code>&lt;sup&gt;1&lt;/sup&gt;</code>. Then you can put a numbered list<sup>2</sup> at the bottom with the actual footnotes. </p>
+<p>The numbered list in your original email had a larger left-side margin than mine will, but you could modify your &quot;Primary Styling CSS&quot; in the MDH options to and add something like <code>margin-left: 10em;</code> to the <code>ol</code> rule. But then it&apos;d be like that for all your numbered lists.</p>
+<p>You also have the carriage-return-ish icon in your footnotes at the bottom, but they&apos;re not links that lead back to the anchor, so... maybe you don&apos;t need them? If you want to add them by hand you can use the HTML entity<sup>3</sup> <code>&amp;crarr;</code>. Like so: &#x21B5;</p>
+<p>I haven&apos;t been using the square brackets around the footnote super numbers because there&apos;s a danger of them ending up being reference-style MD links<sup>4</sup>. Like this<sup><a href="http://markdown-here.com" target="_blank">11</a></sup> but not like this<sup>[12]</sup>.</p>
+<p>Anyway, maybe this will help you and maybe it won&apos;t. It&apos;s probably more hassle than you&apos;re happy with. I&apos;ll include the raw version of this email below so that you can see it.</p>
+<ol>
+<li>Gratuitous link to info about the <code>&lt;sup&gt;</code> tag: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup</a></li>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-lists" target="_blank">MD cheatsheet entry for lists</a></li>
+<li><a href="http://www.w3schools.com/tags/ref_symbols.asp" target="_blank">List of HTML entities</a></li>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links" target="_blank">https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links</a></li>
+</ol>
+<hr>
+<pre><code>I thought of a bit of a hack you can use to emulate your footnotes: put inline HTML `&lt;sup&gt;` tags&lt;sup&gt;1&lt;/sup&gt;. What I just did there looks like this: `&lt;sup&gt;1&lt;/sup&gt;`. Then you can put a numbered list&lt;sup&gt;2&lt;/sup&gt; at the bottom with the actual footnotes. 
+
+The numbered list in your original email had a larger left-side margin than mine will, but you could modify your &quot;Primary Styling CSS&quot; in the MDH options to and add something like `margin-left: 10em;` to the `ol` rule. But then it&apos;d be like that for all your numbered lists.
+
+You also have the carriage-return-ish icon in your footnotes at the bottom, but they&apos;re not links that lead back to the anchor, so... maybe you don&apos;t need them? If you want to add them by hand you can use the HTML entity&lt;sup&gt;3&lt;/sup&gt; `&amp;crarr;`. Like so: &amp;crarr;
+
+I haven&apos;t been using the square brackets around the footnote super numbers because there&apos;s a danger of them ending up being reference-style MD links&lt;sup&gt;4&lt;/sup&gt;. Like this&lt;sup&gt;[11]&lt;/sup&gt; but not like this&lt;sup&gt;[12]&lt;/sup&gt;.
+
+[11]: http://markdown-here.com
+
+Anyway, maybe this will help you and maybe it won&apos;t. It&apos;s probably more hassle than you&apos;re happy with. I&apos;ll include the raw version of this email below so that you can see it.
+
+1. Gratuitous link to info about the `&lt;sup&gt;` tag: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup
+2. [MD cheatsheet entry for lists](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-lists)
+3. [List of HTML entities](http://www.w3schools.com/tags/ref_symbols.asp)
+4. https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
+</code></pre><p><a name="svg" href="#">&lt;/a&gt;
+<a name="tex" href="#"></a></a></p>
+<h1 id="using-other-tex-math-formulae-renderers">Using other TeX math formulae renderers</h1>
+<p>The default Google Charts service that Markdown Here uses for TeX math rendering doesn&apos;t support all math symbols (like <a href="https://github.com/adam-p/markdown-here/issues/199" target="_blank"><code>\cong</code></a>), and doesn&apos;t provide very crisp images. It was chosen because it was thought (by me) to be the least bad option, privacy-wise (because you&apos;re probably already using Google for your email). However, there are other possibilities, if you&apos;re willing to accept the implications. </p>
+<p><a href="http://www.codecogs.com/" target="_blank">CodeCogs</a> supports a wider range of symbols (I think) and provides more rendering targets. You can fool around with its <a href="http://www.codecogs.com/latex/eqneditor.php" target="_blank">equation editor here</a>. To use CodeCogs to produce PNG images, set this in Markdown Here&apos;s &quot;TeX Mathematical Formulae Support&quot; option:</p>
+<pre><code class="lang-no-highlight">&lt;img src=&quot;https://latex.codecogs.com/png.latex?{urlmathcode}&quot; alt=&quot;{mathcode}&quot;&gt;
+</code></pre>
+<p>Using this will give you nice smooth SVG images, but note that they will get stripped out of email:</p>
+<pre><code class="lang-no-highlight">&lt;img src=&quot;https://latex.codecogs.com/svg.latex?{urlmathcode}&quot; alt=&quot;{mathcode}&quot;&gt;
+</code></pre>
+<p>But please note a few important things:</p>
+<ul>
+<li><p>You&apos;re in charge of making sure that you&apos;re not violating <a href="http://www.codecogs.com/pages/agreements/termsofuse.php" target="_blank">CodeCogs&apos; terms of use</a>. You should also check out <a href="http://www.codecogs.com/pages/agreements/privacy_policy.php" target="_blank">their privacy policy</a>.</p>
+</li>
+<li><p>Understand that CodeCogs will be able to see all of your formulae. They can also do things map your IP address to your formulae. And then they can record the IP addresses of the people that read your email and view the formulae. And so they can draw some conclusions that someone at your IP address working with people at your friends&apos; IP addresses.</p>
+</li>
+</ul>
+<p>For more discussion and technical info, see <a href="https://github.com/adam-p/markdown-here/issues/144" target="_blank">issue #144</a>.</p>
+<p><a name="mainfont" href="#"></a></p>
+<h1 id="changing-the-main-font-and-other-overall-styles">Changing the Main Font (and other overall styles)</h1>
+<p>In the &quot;Primary Styling CSS&quot; section of the Markdown Here options page, there is a rule for <code>.markdown-here-wrapper</code> (that&apos;s empty by default). This rule should be used for styles that you want applied to your entire email (overridden by other styles, of course). </p>
+<p>So, if you wanted Verdana as your default font, you could set this:</p>
+<pre><code>.markdown-here-wrapper {
+  font-family: Verdana, sans;
+}
+</code></pre><p>and this (if you want to apply the new font not only to the first row of your tables):</p>
+<pre><code>table tr th, table tr td {
+  font-family: Verdana, sans;
+  ...
+}
+</code></pre><p><img src="https://f.cloud.github.com/assets/425687/588697/75922c86-c992-11e2-8071-f42f40295e3c.gif" alt="main font example"></p>
+<p><a name="inlinehtml" href="#"></a></p>
+<h1 id="getting-fancy-with-inline-html">Getting fancy with inline HTML</h1>
+<p>Markdown (and Markdown Here) allows for inline HTML tags to be used when writing the Markdown, and having them preserved when rendering. This provides you with the ability to add more powerful styling than is possible with Markdown or email alone.</p>
+<p>You probably don&apos;t want to use these tricks too often, since they involve a lot more (and less natural) typing than normal Markdown, but they can let you do very powerful things that you can&apos;t otherwise.</p>
+<p><strong>PLEASE NOTE:</strong> <em>Always test</em> to your fancy styles and HTML tags by sending an email that uses them to yourself and then viewing the email. Some email clients strip out some styles, so it might look good when you send it, but not when you receive it.</p>
+<h3 id="html-tags">HTML Tags</h3>
+<p>Some HTML tags that aren&apos;t available in a normal email client can be used if typed directly. For example, you can get superscripts and subscripts like this:</p>
+<pre><code>hi&lt;sup&gt;1&lt;/sup&gt; low&lt;sub&gt;2&lt;/sub&gt;
+</code></pre><p>The result will look like this: hi<sup>1</sup> low<sub>2</sub></p>
+<p>TODO: More examples?</p>
+<h3 id="custom-css-classes">Custom CSS classes</h3>
+<p>In Markdown Here&apos;s &quot;Primary Styling CSS&quot; you can create custom CSS classes that apply to <code>&lt;span&gt;</code> elements that you use inline. </p>
+<p>Let&apos;s say you want to the background color of some text in your email to be a nice gradient from light blue to light pink and have a big horrible border. You could create a CSS rule like this:</p>
+<pre><code>.hi {
+  background: linear-gradient(225deg, lightpink, lightblue);
+  border: thick dotted purple;
+}
+</code></pre><p>And then use it in your email something like this:</p>
+<pre><code>Happy &lt;span class=&quot;hi&quot;&gt;Birthday&lt;/span&gt; my friend!
+</code></pre><p>(The preview of it won&apos;t show properly here, but try it out yourself in your email.)</p>
+<p>TODO: More compelling, less ridiculous examples.</p>
+<p><a name="css" href="#"></a></p>
+<h1 id="cool-css-stuff">Cool CSS stuff</h1>
+<h3 id="different-numbering-for-ordered-lists">Different numbering for ordered lists</h3>
+<p>By defaults, ordered (aka numbered) lists use ordinary Arabic numbers (1, 2, 3, ...). But with a single CSS rule you can use Roman numerals, or Greek letters, or Thai numbers, and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type" target="_blank">lots of others</a>:</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">ol</span> {
+  <span class="hljs-attribute">list-style-type</span>: lower-greek;
+}
+</code></pre>
+<p><a name="salutation" href="#"></a></p>
+<h3 id="salutation-styling">Salutation Styling</h3>
+<p>If you want to style the salutation of your email differently from the rest of the email, you can add a CSS rule that applies to the very first paragraph like so:</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.markdown-here-wrapper</span> &gt; <span class="hljs-selector-tag">p</span><span class="hljs-selector-pseudo">:first-of-type</span> {
+  <span class="hljs-attribute">color</span>: red;
+}
+</code></pre>
+<p>(Note that this will apply to the first paragraph of all MDH-rendered chunks in an email. So if you&apos;re rendering multiple selections you&apos;ll get multiple red paragraphs. For my complex CSS to fix this, check out <a href="https://stackoverflow.com/questions/2717480/css-selector-for-first-element-with-class/8539107#8539107" target="_blank">this SO post</a>.)</p>
+<p><a name="tables" href="#"></a></p>
+<h1 id="creating-more-complex-tables">Creating more complex tables</h1>
+<p>There is a <a href="https://github.com/adam-p/markdown-here/issues/176" target="_blank">feature request</a> for adding the ability to span cells across rows and columns, but it hasn&apos;t yet been implemented. </p>
+<p>Probably the best way to do rowspan and colspan right now is to use this <a href="http://www.tablesgenerator.com/html_tables" target="_blank">online HTML table generator</a> to create your table, and then paste it into your email (or whatever) and use MDH to render it. <em>Make sure</em> to check the boxes for &quot;Do not generate CSS&quot; (because MDH provides the CSS) and &quot;Compact mode&quot; (to avoid MDH&apos;s multi-line HTML <a href="https://github.com/adam-p/markdown-here/issues/157" target="_blank">problem</a>).</p>
+<h3 id="header-less-tables">Header-less tables</h3>
+<p>See <a href="https://github.com/adam-p/markdown-here/issues/266#issuecomment-85580214" target="_blank">this issue comment</a> for help on approximately creating a table without a header row (without using HTML).</p>
+<p><a name="post-send-md" href="#"></a></p>
+<h1 id="getting-original-markdown-from-sent-email">Getting original Markdown from sent email</h1>
+<p>There is an outstanding <a href="https://github.com/adam-p/markdown-here/issues/252" target="_blank">feature request</a> to be able to get the original Markdown from a sent email, but for now there&apos;s an easy trick to get it:</p>
+<ol>
+<li>Open the message.</li>
+<li>Start a forward of it.</li>
+<li>Markdown Toggle.</li>
+<li>The forward content will be replaced with the original Markdown.</li>
+</ol>
+<p>This has been tested in Gmail and Thunderbird. If the mail client quotes the forwarded content, then it won&apos;t work.</p>
+<p><a name="header-anchors" href="#"></a></p>
+<h1 id="using-header-anchor-links">Using Header Anchor Links</h1>
+<p>[Stub. Someone (like me or Casey) should fill this in. Also, this section should probably not be at the bottom of the page -- it should probably be second or third.]</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Markdown-Cheatsheet.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Markdown cheatsheet">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Trick and Tips","level":"1.5","depth":1,"previous":{"title":"Markdown cheatsheet","level":"1.4","depth":1,"path":"git/Markdown-Cheatsheet.md","ref":"git/Markdown-Cheatsheet.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"git/Tips-and-Tricks.md","mtime":"2017-08-16T05:54:51.382Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-16T05:59:44.534Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
